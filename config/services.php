@@ -28,6 +28,12 @@ return [
         'key' => env('RESEND_KEY'),
     ],
 
+    'amocrm' => [
+        'client_id' => env('AMOCRM_CLIENT_ID'),
+        'client_secret' => env('AMOCRM_CLIENT_SECRET'),
+        'redirect_uri' => env('AMOCRM_REDIRECT_URI'),
+    ],
+
     'slack' => [
         'notifications' => [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
